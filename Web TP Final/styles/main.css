@@ -73,8 +73,123 @@ section {
     margin-top: 0.2rem;    
 }
 
+/* INICIO SECCION 3 */
+.seccion-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background: url(../img/Background-form.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 0;
+    animation: moveBackground 10s linear infinite;
+    }
+    @keyframes moveBackground {
+        from {
+          background-position: 0 0;
+        }
+        to {
+          background-position: 100% 0;
+        }
+        from {
+            background-position: 100% 0;
+        }
+        to{
+            background-position: 0 0;
+        }
+      }
+    
+    
+    
+    
+    .form-titulo{
+        font-weight: normal;
+        text-align: center;
+    }
+    
+    
+    .form-contenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(220, 220, 220, .5);
+        width: 40%;
+        height: 80%;
+        border-radius: 15px;
+    }
+    .form-header{
+        width: 100%;
+    }
+    .form-titulo{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 80%;
+        height: 100%;
+    
+    }
+    
+    .form-label{
+        display: block;
+        position: relative;
+        font-size: 1em;
+        color: black;
+        background-color:rgba(200, 200, 200, .3);
+    }
+    
+    .form-textarea{
+        width: 100%;
+        max-width: 100%;
+        height: 50px;
+        margin: 10px auto;
+        border-radius: 5px;
+        padding: 2px;
+        background-color:rgba(200, 200, 200, .5);
+        transition: .5s;
+        color: #000;
+    }
+    
+    .form-textarea:focus{
+        background-color: rgba(230, 230, 230, .9);
+    }
+    .form-input{
+        height: 35px;
+        width: 100%;
+        margin: 10px auto;
+        border-radius: 5px;
+        padding: 2px;
+        background-color:rgba(200, 200, 200, .5);
+        transition: .5s;
+        color: #000;
+    }
+    
+    .form-input:focus{
+        background-color: rgba(230, 230, 230, .9);
+    }
+    
+    .btn-submit{
+        width: 100%;
+        height: 40px;
+        margin: 10px auto;
+        border-radius: 5px;
+        background: linear-gradient(180deg, #65bce8 0%, #3065859d 100%);
+    }
+    
+    .btn-submit:hover{
+        background: linear-gradient(180deg, #65bce8 0%, #3065855b 100%);
+    }
+/* FIN SECCION 3 */
 
-/* Falta hacerlo responsive */
+
 footer{
     display: flex;
     align-items: center;
