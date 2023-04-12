@@ -5,6 +5,8 @@
 }
 
 body {
+    min-height: 100vh;
+    width: 100%;
     background-image: repeating-linear-gradient(#2f3234,#c8c8c7, #2f3234, #c8c8c7);
 }
 
