@@ -4,20 +4,11 @@
     box-sizing: border-box;
 }
 
-html{
-    font-size: 16px;
-    font-family: sans-serif;
-    color: #000;
+body {
+    background-image: repeating-linear-gradient(#2f3234,#c8c8c7, #2f3234, #c8c8c7);
 }
 
-body{
-    min-height: 100vh;
-    width: 100%;
-}
-
-
-
-header{
+header {
     position: sticky;
     display: flex;
     justify-content: flex-end;
@@ -26,7 +17,7 @@ header{
     padding: 10px;
     background-color:#2f3234;
 }
-nav{
+nav {
     display: flex;
     justify-content: space-between;
 }
@@ -47,7 +38,7 @@ nav a:hover{
 
 /*Comenzando secciones*/
 
-section{
+section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,10 +47,10 @@ section{
 }
 
 
-.seccion-1{
+/* .seccion-1{
     background: linear-gradient(#2f3234,#c8c8c7);
 }
-.seccion-2{
+.contact-cards{
     background: linear-gradient(#c8c8c7,#2f3234);
 }
 .seccion-3{
@@ -67,19 +58,20 @@ section{
 }
 .seccion-4{
     background: linear-gradient(#c8c8c7,#2f3234);
+} */
+
+.contact-cards {
+    display: flex;
 }
 
+.card {
+    max-width: 15rem;
+}
 
-
-
-
-
-
-
-
-
-
-
+.github-btn ,.linkedin-btn {
+    width: 100%;
+    margin-top: 0.2rem;    
+}
 
 
 /* Falta hacerlo responsive */
