@@ -1,3 +1,4 @@
+/*CARACTERISTICAS PRINCIPALES*/
 *{
     margin: 0;
     padding: 0;
@@ -7,9 +8,18 @@
 body {
     min-height: 100vh;
     width: 100%;
-    background-image: repeating-linear-gradient(#2f3234,#c8c8c7, #2f3234, #c8c8c7);
+    background-color: #294556;
+    background-image: linear-gradient(0deg, #294556 0%, #ffffff 100%);
+
 }
 
+
+
+
+
+
+
+/*INICIO HEADER*/
 header {
     position: sticky;
     display: flex;
@@ -17,7 +27,7 @@ header {
     min-height: 70px;
     align-items: center;
     padding: 10px;
-    background-color:#2f3234;
+    /*background-color:#2f3234;*/   /*Cambio temporal*/
 }
 nav {
     display: flex;
@@ -36,10 +46,18 @@ nav a{
 nav a:hover{
     color: whitesmoke;
 }
+/*FIN HEADER*/
 
 
-/*Comenzando secciones*/
 
+
+
+
+
+
+
+
+/*INICIO SECCION GENERAL*/
 section {
     display: flex;
     justify-content: center;
@@ -47,21 +65,15 @@ section {
     width: 100%;
     height: 500px;
 }
+/*FIN SECCION GENERAL*/
 
 
-/* .seccion-1{
-    background: linear-gradient(#2f3234,#c8c8c7);
-}
-.contact-cards{
-    background: linear-gradient(#c8c8c7,#2f3234);
-}
-.seccion-3{
-    background: linear-gradient(#2f3234,#c8c8c7);
-}
-.seccion-4{
-    background: linear-gradient(#c8c8c7,#2f3234);
-} */
 
+
+
+
+
+/*INICIO SECCION CARDS*/
 .contact-cards {
     display: flex;
 }
@@ -74,6 +86,12 @@ section {
     width: 100%;
     margin-top: 0.2rem;    
 }
+/*FIN SECCION CARDS*/
+
+
+
+
+
 
 
 
@@ -84,8 +102,8 @@ section {
     align-items: center;
     width: 100%;
     height: 600px;
-    background-color: #000000;
-    background-image: linear-gradient(325deg, #000000 0%, #ededed 100%);
+    /*background-color: #000000;
+    background-image: linear-gradient(325deg, #000000 0%, #ededed 100%); */    /*TEMP*/ 
     }
 
     
