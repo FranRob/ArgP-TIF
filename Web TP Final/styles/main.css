@@ -10,27 +10,10 @@ body {
     background-image: repeating-linear-gradient(#2f3234,#c8c8c7, #2f3234, #c8c8c7);
 }
 
-header {
-    position: sticky;
-    display: flex;
-    justify-content: flex-end;
-    min-height: 70px;
-    align-items: center;
-    padding: 10px;
-    background-color:#2f3234;
-}
-nav {
-    display: flex;
-    justify-content: space-between;
-}
-.nav-link{
-    text-decoration: none;
-    color: #c8c8c7;
-}
+/* INICIO SECCION MENU*/
 
-nav a{
-    font-weight: 600;
-    padding-right: 10px;
+#main-menu {
+    gap: 1.5rem;
 }
 
 nav a:hover{
@@ -48,22 +31,11 @@ section {
     height: 500px;
 }
 
+/* INICIO SECCION CONTACT CARDS */
 
-/* .seccion-1{
-    background: linear-gradient(#2f3234,#c8c8c7);
-}
-.contact-cards{
-    background: linear-gradient(#c8c8c7,#2f3234);
-}
-.seccion-3{
-    background: linear-gradient(#2f3234,#c8c8c7);
-}
-.seccion-4{
-    background: linear-gradient(#c8c8c7,#2f3234);
-} */
-
-.contact-cards {
+.contact-cards-section {
     display: flex;
+    height: fit-content;
 }
 
 .card {
@@ -76,7 +48,7 @@ section {
 }
 
 /* INICIO SECCION 3 */
-.seccion-3{
+.contact-section {
     display: flex;
     justify-content: center;
     align-items: center;
