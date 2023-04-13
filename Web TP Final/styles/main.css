@@ -1,3 +1,4 @@
+/*CARACTERISTICAS PRINCIPALES*/
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +8,9 @@
 body {
     min-height: 100vh;
     width: 100%;
-    background-image: repeating-linear-gradient(#2f3234,#c8c8c7, #2f3234, #c8c8c7);
+    background-color: #294556;
+    background-image: linear-gradient(0deg, #294556 0%, #ffffff 100%);
+
 }
 
 /* INICIO SECCION MENU*/
@@ -19,10 +22,18 @@ body {
 nav a:hover{
     color: whitesmoke;
 }
+/*FIN HEADER*/
 
 
-/*Comenzando secciones*/
 
+
+
+
+
+
+
+
+/*INICIO SECCION GENERAL*/
 section {
     display: flex;
     justify-content: center;
@@ -30,6 +41,7 @@ section {
     width: 100%;
     height: 500px;
 }
+/*FIN SECCION GENERAL*/
 
 /* INICIO SECCION CONTACT CARDS */
 
@@ -46,6 +58,14 @@ section {
     width: 100%;
     margin-top: 0.2rem;    
 }
+/*FIN SECCION CARDS*/
+
+
+
+
+
+
+
 
 /* INICIO SECCION 3 */
 .contact-section {
@@ -54,26 +74,10 @@ section {
     align-items: center;
     width: 100%;
     height: 600px;
-    background: url(../img/Background-form.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 0 0;
-    animation: moveBackground 10s linear infinite;
+    /*background-color: #000000;
+    background-image: linear-gradient(325deg, #000000 0%, #ededed 100%); */    /*TEMP*/ 
     }
-    @keyframes moveBackground {
-        from {
-          background-position: 0 0;
-        }
-        to {
-          background-position: 100% 0;
-        }
-        from {
-            background-position: 100% 0;
-        }
-        to{
-            background-position: 0 0;
-        }
-      }
+
     
     
     
@@ -117,7 +121,6 @@ section {
         position: relative;
         font-size: 1em;
         color: black;
-        background-color:rgba(200, 200, 200, .3);
     }
     
     .form-textarea{
@@ -155,11 +158,12 @@ section {
         height: 40px;
         margin: 10px auto;
         border-radius: 5px;
-        background: linear-gradient(180deg, #65bce8 0%, #3065859d 100%);
+        background-image: linear-gradient(325deg, #000000 0%, #ededed 100%);
+        transition-duration: .5s;
     }
-    
+
     .btn-submit:hover{
-        background: linear-gradient(180deg, #65bce8 0%, #3065855b 100%);
+        background-image: linear-gradient(325deg, #ededed 0%, #000000 100%);
     }
 /* FIN SECCION 3 */
 
