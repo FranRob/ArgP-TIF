@@ -38,11 +38,12 @@ section {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 500px;
+    height: 600px;
 }
 /*FIN SECCION GENERAL*/
 
 /*INICIO SECCION HOME*/
+
 .imagenEquipo {
 width: 80vw; /* para dispositivos móviles */
 }
@@ -85,8 +86,13 @@ width: 100vw; /* para dispositivos de escritorio */
 /* INICIO SECCION CONTACT CARDS */
 
 .contact-cards-section {
+    margin-top: 1.5em;
     display: flex;
     height: fit-content;
+}
+
+.contact-cards-section h1 {
+    text-align: center;
 }
 
 .card {
@@ -100,12 +106,6 @@ width: 100vw; /* para dispositivos de escritorio */
 /*FIN SECCION CARDS*/
 
 
-
-
-
-
-
-
 /* INICIO SECCION 3 */
 .contact-section {
     display: flex;
@@ -117,10 +117,6 @@ width: 100vw; /* para dispositivos de escritorio */
     background-image: linear-gradient(325deg, #000000 0%, #ededed 100%); */    /*TEMP*/ 
     }
 
-    
-    
-    
-    
     .form-titulo{
         font-weight: normal;
         text-align: center;
@@ -152,7 +148,6 @@ width: 100vw; /* para dispositivos de escritorio */
         align-items: flex-start;
         width: 80%;
         height: 100%;
-    
     }
     
     .form-label{
