@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780.01 357.06">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .09em;
+      }
+
+      .cls-2 {
+        letter-spacing: .09em;
+      }
+
+      .cls-3 {
+        letter-spacing: .08em;
+      }
+
+      .cls-4 {
+        letter-spacing: .09em;
+      }
+
+      .cls-5 {
+        fill: #90caf2;
+      }
+
+      .cls-6 {
+        letter-spacing: .08em;
+      }
+
+      .cls-7 {
+        fill: #c5ddf9;
+      }
+
+      .cls-8 {
+        fill: #0693da;
+      }
+
+      .cls-9 {
+        fill: #0691d7;
+        font-family: Montserrat-SemiBold, Montserrat;
+        font-size: 110px;
+        font-weight: 600;
+      }
+
+      .cls-10 {
+        fill: #abd3f6;
+      }
+
+      .cls-11 {
+        letter-spacing: .1em;
+      }
+
+      .cls-12 {
+        letter-spacing: .1em;
+      }
+
+      .cls-13 {
+        fill: #2fa5e3;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <text class="cls-9" transform="translate(0 327.91)"><tspan class="cls-11" x="0" y="0">D</tspan><tspan class="cls-2" x="101.86" y="0">E</tspan><tspan class="cls-3" x="185.46" y="0">V</tspan><tspan class="cls-6" x="273.9" y="0">X</tspan><tspan class="cls-1" x="358.6" y="0">P</tspan><tspan class="cls-12" x="448.36" y="0">E</tspan><tspan class="cls-1" x="533.06" y="0">R</tspan><tspan class="cls-4" x="623.37" y="0">T</tspan><tspan class="cls-11" x="699.82" y="0">S</tspan></text>
+    <g>
+      <polygon class="cls-8" points="302.44 144.55 260.71 216.83 344.17 216.83 302.44 144.55"/>
+      <polygon class="cls-7" points="385.89 0 344.17 72.28 427.62 72.28 385.89 0"/>
+      <polygon class="cls-5" points="385.89 144.55 344.17 216.83 427.62 216.83 385.89 144.55"/>
+      <polygon class="cls-13" points="344.17 216.83 302.44 144.55 385.89 144.55 344.17 216.83"/>
+      <polygon class="cls-10" points="427.62 216.83 385.89 144.55 469.35 144.55 427.62 216.83"/>
+      <polygon class="cls-8" points="469.35 144.55 427.62 216.83 511.08 216.83 469.35 144.55"/>
+      <polygon class="cls-5" points="385.89 144.55 427.62 72.28 344.17 72.28 385.89 144.55"/>
+      <polygon class="cls-13" points="427.62 72.28 469.35 144.55 385.89 144.55 427.62 72.28"/>
+      <polygon class="cls-10" points="344.17 72.28 385.89 144.55 302.44 144.55 344.17 72.28"/>
+    </g>
+  </g>
+</svg>

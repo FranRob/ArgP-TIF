@@ -1,55 +1,36 @@
+/*CARACTERISTICAS PRINCIPALES*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-html{
-    font-size: 16px;
     font-family: sans-serif;
-    color: #000;
 }
 
-
-html {
+html{    
+    color: #000;
     scroll-behavior: smooth;
 }
+
 
 body {
     min-height: 100vh;
     width: 100%;
+    background-color: #294556;
+    background-image: linear-gradient(0deg, #294556 0%, #ffffff 100%);
+    font-size: 16px;
+
 }
 
+/* INICIO SECCION MENU*/
 
-
-header{
-    position: sticky;
-    display: flex;
-    justify-content: flex-end;
-    min-height: 70px;
-    align-items: center;
-    padding: 10px;
-    background-color:#2f3234;
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-}
-.nav-link{
-    text-decoration: none;
-    color: #c8c8c7;
-}
-
-nav a{
-    font-weight: 600;
-    padding-right: 10px;
+#main-menu {
+    gap: 1.5rem;
 }
 
 nav a:hover{
     color: whitesmoke;
 }
-/*FIN MENU*/
-
+/*FIN HEADER*/
 
 /*INICIO SECCION GENERAL*/
 section {
@@ -59,13 +40,71 @@ section {
     width: 100%;
     height: 500px;
 }
+/*FIN SECCION GENERAL*/
 
-.contact-cards-section h1 {
+/*INICIO SECCION HOME*/
+.imagenEquipo {
+width: 80vw; /* para dispositivos móviles */
+}
+
+@media screen and (min-width: 768px) {
+.imagenEquipo {
+width: 100vw; /* para dispositivos de escritorio */
+}
+}
+
+/* Cartel de DEVXPERTS */
+.home-section {
+    position: relative;
     text-align: center;
 }
-.card {
-    width: 13rem;    
+
+.cartel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    padding: 0 1em 0 1em;
 }
+
+.cartel h1 {
+    color: #2FA5E3;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px rgb(71, 71, 71);
+}
+/* FIn cartel */
+
+/*FIN SECCION HOME*/
+
+/* INICIO SECCION CONTACT CARDS */
+
+.contact-cards-section {
+    display: flex;
+    height: fit-content;
+}
+
+.card {
+    max-width: 15rem;
+}
+
+.github-btn ,.linkedin-btn {
+    width: 100%;
+    margin-top: 0.2rem;    
+}
+/*FIN SECCION CARDS*/
+
+
+
+
+
+
+
 
 /* INICIO SECCION 3 */
 .contact-section {
@@ -78,10 +117,15 @@ section {
     background-image: linear-gradient(325deg, #000000 0%, #ededed 100%); */    /*TEMP*/ 
     }
 
+    
+    
+    
+    
     .form-titulo{
         font-weight: normal;
         text-align: center;
     }
+    
     
     .form-contenedor{
         display: flex;
@@ -108,6 +152,7 @@ section {
         align-items: flex-start;
         width: 80%;
         height: 100%;
+    
     }
     
     .form-label{
@@ -156,52 +201,87 @@ section {
         transition-duration: .5s;
     }
 
+    .btn-submit:hover{
+        background-image: linear-gradient(325deg, #ededed 0%, #000000 100%);
+    }
+/* FIN SECCION 3 */
 
 
+/* INICIO FOOTER */
 
-
-/* Falta hacerlo responsive */
 footer{
-    display: flex;
-    align-items: center;
-    background-color: #2f3234
+    width: 100%;
+    padding: 50px 0px;
+    background-size: cover;
 }
 
-footer div{
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box__footer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    height: 250px;
-    margin: 20px;
-    color: #c8c8c7;
-}
-
-.img-contacto{
-    height: 200px;
-}
-
-.img-contacto:hover{
-    background-color:#3b3c3d;
-}
-
-.caja2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    padding: 40px;
 
 }
 
-.caja2 a{
-    color: #c8c8c7;
-    margin: 20px;
-}
-.caja2 a:hover{
-    color: whitesmoke;
+.box__footer .logo img{
+    width: 180px;
 }
 
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #313131;
+    font-size: 18px;
+}
+
+.box__footer h2{
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #313131;
+    font-weight: 600;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #313131;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #313131;
+}
+
+/* FIN FOOTER */
 
 
 
