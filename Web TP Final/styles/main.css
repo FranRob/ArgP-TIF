@@ -10,7 +10,12 @@ html{
     color: #000;
 }
 
-body{
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     min-height: 100vh;
     width: 100%;
 }
@@ -43,11 +48,11 @@ nav a{
 nav a:hover{
     color: whitesmoke;
 }
+/*FIN MENU*/
 
 
-/*Comenzando secciones*/
-
-section{
+/*INICIO SECCION GENERAL*/
+section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,28 +60,101 @@ section{
     height: 500px;
 }
 
-
-.seccion-1{
-    background: linear-gradient(#2f3234,#c8c8c7);
+.contact-cards-section h1 {
+    text-align: center;
 }
-.seccion-2{
-    background: linear-gradient(#c8c8c7,#2f3234);
-}
-.seccion-3{
-    background: linear-gradient(#2f3234,#c8c8c7);
-}
-.seccion-4{
-    background: linear-gradient(#c8c8c7,#2f3234);
+.card {
+    width: 13rem;    
 }
 
+/* INICIO SECCION 3 */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    /*background-color: #000000;
+    background-image: linear-gradient(325deg, #000000 0%, #ededed 100%); */    /*TEMP*/ 
+    }
 
-
-
-
-
-
-
-
+    .form-titulo{
+        font-weight: normal;
+        text-align: center;
+    }
+    
+    .form-contenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(220, 220, 220, .5);
+        width: 40%;
+        height: 80%;
+        border-radius: 15px;
+    }
+    .form-header{
+        width: 100%;
+    }
+    .form-titulo{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 80%;
+        height: 100%;
+    }
+    
+    .form-label{
+        display: block;
+        position: relative;
+        font-size: 1em;
+        color: black;
+    }
+    
+    .form-textarea{
+        width: 100%;
+        max-width: 100%;
+        height: 50px;
+        margin: 10px auto;
+        border-radius: 5px;
+        padding: 2px;
+        background-color:rgba(200, 200, 200, .5);
+        transition: .5s;
+        color: #000;
+    }
+    
+    .form-textarea:focus{
+        background-color: rgba(230, 230, 230, .9);
+    }
+    .form-input{
+        height: 35px;
+        width: 100%;
+        margin: 10px auto;
+        border-radius: 5px;
+        padding: 2px;
+        background-color:rgba(200, 200, 200, .5);
+        transition: .5s;
+        color: #000;
+    }
+    
+    .form-input:focus{
+        background-color: rgba(230, 230, 230, .9);
+    }
+    
+    .btn-submit{
+        width: 100%;
+        height: 40px;
+        margin: 10px auto;
+        border-radius: 5px;
+        background-image: linear-gradient(325deg, #000000 0%, #ededed 100%);
+        transition-duration: .5s;
+    }
 
 
 
