@@ -129,6 +129,7 @@ width: 100vw; /* para dispositivos de escritorio */
         align-items: center;
         background-color: rgba(220, 220, 220, .5);
         width: 40%;
+        min-width: 350px;
         height: 80%;
         border-radius: 15px;
     }
