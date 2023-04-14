@@ -8,41 +8,211 @@
     <title>Trabajo Integrador Final</title>
 </head>
 <body>
-    
-    <header>
-        <nav>
-            <a class="nav-link" href="#section__ancla--1">Section1</a>
-            <a class="nav-link" href="#section__ancla--2">Section2</a>
-            <a class="nav-link" href="#section__ancla--3">Section3</a>
-            <a class="nav-link" href="#section__ancla--4">Section4</a>
+    <div class="header">
+        <nav class="navbar bg-dark fixed-top px-5" data-bs-theme="dark" id="navbar">
+                <a href="#" class="navbar-brand col-3" aria-label="DevXperts">
+                    <img src="../Web TP Final/img/logo-header.svg" alt="logo-devxperts" width="120px">
+                </a>
+                <ul class="navbar-nav mb-2 mb-lg-0 flex-row" id="main-menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Quiénes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                    
+                </ul>
         </nav>
     </header>
 
-    <section class="seccion-1" id="section__ancla--1">
-        <h1>¿Quienes somos?</h1>
-        <p>Somos una empresa de informatica con el objetivo de llevar una pagina web a todas las pequeñas empresas que necesiten expandirse en el mercado digital</p>
-    </section>
+    <div class="content">
+        <section class="home-section" id="home">
+            <h1>DevXperts</h1>
+            <p></p>
+        </section>
 
-    <section class="seccion-2" id="section__ancla--2">
-        <h1>¿Quienes somos?</h1>
-        <p>Somos una empresa de informatica con el objetivo de llevar una pagina web a todas las pequeñas empresas que necesiten expandirse en el mercado digital</p>
-    </section>
+        <section class="about-section" id="about">
+            <div class="container">
+                <h1 class="py-4">¿Quienes somos?</h1>
+                <p> 
+                    ¡Bienvenidos a nuestro sitio web de desarrolladores de frontend!
+                    Somos un equipo de expertos en la creación de soluciones de frontend personalizadas, que incluyen diseño y desarrollo de interfaces de usuario atractivas y funcionales, tecnologías innovadoras para mejorar el rendimiento y la velocidad de carga del sitio web, optimización de la accesibilidad y servicios de mantenimiento y soporte continuos.
+                    <br>Trabajamos de cerca con nuestros clientes para comprender sus necesidades y objetivos específicos, con el objetivo de brindar soluciones de frontend efectivas e impactantes. Si buscás un equipo confiable y experto, ¡estamos aquí para llevar su presencia en línea al siguiente nivel!
+                </p>
+                <div class="flex"> 
+                    <strong>Contáctanos hoy para discutir cómo podemos ayudarte.</strong>
+                    <button class="btn btn-dark cta">
+                        <a href="#contact" class="nav-link">Quiero contactarme</a>
+                    </button>
+                </div>
+            </div>
+        </section>
 
-    <section class="seccion-3" id="section__ancla--3">
-        <h1>¿Quienes somos?</h1>
-        <p>Somos una empresa de informatica con el objetivo de llevar una pagina web a todas las pequeñas empresas que necesiten expandirse en el mercado digital</p>
-    </section>
+        <section class="contact-cards-section flex-column" id="team">
+            <div class="container">
+                <h1 class="py-4">Conocé a nuestro equipo</h1>
+                <div class="row row-cols-xs-1 row-cols-s-2 row-cols-md-3 row-cols-xxl-6 g-4">
+                    <div class="col">
+                        <div class="card" id="card-cami">
+                            <img src="../Web TP Final/img/foto-camila.jpg" class="card-img-top" alt="Foto Camila González">
+                            <div class="card-body">
+                                <h5 class="card-title">Camila González</h5>
+                                <h6 class="card-subtitle">Front-End Developer</h6>
+                                <p class="card-text">Breve descripción sobre carrera profesional y la posición en DevXperts</p>
+                                <a href="https://github.com/AbsolemC" target="blank" class="btn github-btn" style="background-color: #24292f; color: white;">
+                                    <i class="bi bi-github"></i> Github
+                                </a>
+                                <a href="https://www.linkedin.com/in/camilayasmin-gonzalez" target="blank" class="btn linkedin-btn" style="background-color: #0a66c2; color: white;">
+                                    <i class="bi bi-linkedin"></i> LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" id="card-fran">
+                            <img src="https://avatars.githubusercontent.com/u/108472146?v=4" class="card-img-top" alt="Foto Franco Robles">
+                            <div class="card-body">
+                                <h5 class="card-title">Franco Robles</h5>
+                                <h6 class="card-subtitle">Front-End Developer</h6>
+                                <p class="card-text">Breve descripción sobre carrera profesional y la posición en DevXperts</p>
+                                <a href="https://github.com/FranRob" target="blank" class="btn github-btn" style="background-color: #24292f; color: white;">
+                                    <i class="bi bi-github"></i> Github
+                                </a>
+                                <a href="https://www.linkedin.com/in/francorob" target="blank" class="btn linkedin-btn" style="background-color: #0a66c2; color: white;">
+                                    <i class="bi bi-linkedin"></i> LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" id="card-mica">
+                            <img src="../Web TP Final/img/foto-mica.jpg" class="card-img-top" alt="Foto Micaela Lucero">
+                            <div class="card-body">
+                                <h5 class="card-title">Micaela Lucero</h5>
+                                <h6 class="card-subtitle">Front-End Developer</h6>
+                                <p class="card-text">Breve descripción sobre carrera profesional y la posición en DevXperts</p>
+                                <a href="https://www.linkedin.com/in/micaela-bel%C3%A9n-lucero-2a37a9246" target="blank" class="btn github-btn" style="background-color: #24292f; color: white;">
+                                    <i class="bi bi-github"></i> Github
+                                </a>
+                                <a href="http://www.linkedin.com/in/micaela-bel%C3%A9n-lucero-2a37a9246" target="blank" class="btn linkedin-btn" style="background-color: #0a66c2; color: white;">
+                                    <i class="bi bi-linkedin"></i> LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" id="card-juan">
+                            <img src="../Web TP Final/img/foto-juani.jpeg" class="card-img-top" alt="Foto Juan Ignacio Bertran">
+                            <div class="card-body">
+                                <h5 class="card-title">Juan I. Bertran</h5>
+                                <h6 class="card-subtitle">Front-End Developer</h6>
+                                <p class="card-text">Breve descripción sobre carrera profesional y la posición en DevXperts</p>
+                                <a href="https://github.com/Durangue" target="blank" class="btn github-btn" style="background-color: #24292f; color: white;">
+                                    <i class="bi bi-github"></i> Github
+                                </a>
+                                <a href="https://www.linkedin.com/in/juan-bertran-923553155/" target="blank" class="btn linkedin-btn" style="background-color: #0a66c2; color: white;">
+                                    <i class="bi bi-linkedin"></i> LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" id="card-cintia">
+                            <img src="https://avatars.githubusercontent.com/u/128490958?v=4" class="card-img-top" alt="Foto Cintia Belén Estrada">
+                            <div class="card-body">
+                                <h5 class="card-title">Cintia B. Estrada</h5>
+                                <h6 class="card-subtitle">Front-End Developer</h6>
+                                <p class="card-text">Breve descripción sobre carrera profesional y la posición en DevXperts</p>
+                                <a href="https://github.com/cintiabelenestrada" target="blank" class="btn github-btn" style="background-color: #24292f; color: white;">
+                                    <i class="bi bi-github"></i> Github
+                                </a>
+                                <a href="https://www.linkedin.com/in/cintia-belen-estrada-118b8a131" target="blank" class="btn linkedin-btn" style="background-color: #0a66c2; color: white;">
+                                    <i class="bi bi-linkedin"></i> LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" id="card-majo">
+                            <img src="../Web TP Final/img/foto-majo.jpeg" class="card-img-top" alt="Foto María José Malbran">
+                            <div class="card-body">
+                                <h5 class="card-title">María J. Malbran</h5>
+                                <h6 class="card-subtitle">Front-End Developer</h6>
+                                <p class="card-text">Breve descripción sobre carrera profesional y la posición en DevXperts</p>
+                                <a href="https://github.com/MajoMalbran" target="blank" class="btn github-btn" style="background-color: #24292f; color: white;">
+                                    <i class="bi bi-github"></i> Github
+                                </a>
+                                <a href="#" target="blank" class="btn linkedin-btn" style="background-color: #0a66c2; color: white;">
+                                    <i class="bi bi-linkedin"></i> LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section class="seccion-4" id="section__ancla--4">
-        <h1>¿Quienes somos?</h1>
-        <p>Somos una empresa de informatica con el objetivo de llevar una pagina web a todas las pequeñas empresas que necesiten expandirse en el mercado digital</p>
-    </section>
+        <section class="contact-section" id="contact">
+            <div class="form-contenedor py-4">
+                <div class="form-header">
+                    <h2 class="form-titulo">Contacto</h2>
+                </div>
+                    <form class="form">
+                        <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-input" id="nombre">
+                        <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-input" id="email" required>
+                        <label for="asunto" class="form-label">Asunto</label>
+                            <input type="text" class="form-input" id="asunto" required>
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea id="mensaje" class="form-textarea" required></textarea>
+                        <input type="submit" class="btn-submit" value="Enviar consulta">
+                    </form>
+    
+            </div>
+        </section>
+
 
     <footer>
-        <div>
-            <a href="contacto.html">
-                <img class="img-contacto" src="./img/Contacto.png" alt="Contacto">
-            </a>
+        <div class="container__footer">
+            <div class="box__footer">
+                <div class="logo">
+                    <img src="../Web TP Final/img/logo-footer.svg" alt="logo-devxperts">
+                </div>
+                <div class="terms">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id excepturi, laborum natus deleniti explicabo a? Alias repellendus doloribus atque, corrupti consectetur, ea sunt quia perferendis, quis officia cupiditate autem quas. </p>
+                </div>
+            </div>
+            <div class="box__footer">
+                <h2>Soluciones</h2>
+                <a href="#">WEB Dev</a>
+                <a href="#">Android Dev</a>
+                <a href="#">IOS Dev</a>
+                <a href="#"></a>
+            </div>
+
+            <div class="box__footer">
+                <h2>Nosotros</h2>
+                <a href="#">Acerca de</a>
+                <a href="#">Trabajos</a>
+                <a href="#">Precios</a>
+                <a href="#">Servicios</a>              
+            </div>
+
+            <div class="box__footer">
+                <h2>Redes Sociales</h2>
+                <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+                <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+                <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+            </div>
+
         </div>
         <div class="caja2">
             <a href="#">Cookies</a>
