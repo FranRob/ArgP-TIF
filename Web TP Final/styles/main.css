@@ -56,13 +56,12 @@ width: 100vw; /* para dispositivos de escritorio */
 
 /* Cartel de DEVXPERTS */
 .home-section {
-    position: relative;
+    overflow: hidden;
     text-align: center;
 }
 
 .cartel {
     position: absolute;
-    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0,0,0,0.5);
