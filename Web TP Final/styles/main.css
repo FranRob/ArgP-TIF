@@ -3,13 +3,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
+
+html{    
+    color: #000;
+    scroll-behavior: smooth;
+}
+
 
 body {
     min-height: 100vh;
     width: 100%;
     background-color: #294556;
     background-image: linear-gradient(0deg, #294556 0%, #ffffff 100%);
+    font-size: 16px;
 
 }
 
@@ -24,15 +32,6 @@ nav a:hover{
 }
 /*FIN HEADER*/
 
-
-
-
-
-
-
-
-
-
 /*INICIO SECCION GENERAL*/
 section {
     display: flex;
@@ -42,7 +41,6 @@ section {
     height: 500px;
 }
 /*FIN SECCION GENERAL*/
-
 
 /*INICIO SECCION HOME*/
 .imagenEquipo {
@@ -59,25 +57,26 @@ width: 100vw; /* para dispositivos de escritorio */
 .home-section {
     position: relative;
     text-align: center;
-  }
+}
 
 .cartel {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0,0,0,0.5);
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    padding: 0 1em 0 1em;
 }
 
 .cartel h1 {
-  color: blue;
-  font-size: 50px;
-  font-weight: bold;
-  margin: 0;
-  padding: 0;
-  text-shadow: 2px 2px gray;
+    color: #2FA5E3;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px rgb(71, 71, 71);
 }
 /* FIn cartel */
 
@@ -283,7 +282,6 @@ footer{
 }
 
 /* FIN FOOTER */
-
 
 
 
