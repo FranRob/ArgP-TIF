@@ -43,6 +43,46 @@ section {
 }
 /*FIN SECCION GENERAL*/
 
+
+/*INICIO SECCION HOME*/
+.imagenEquipo {
+width: 80vw; /* para dispositivos móviles */
+}
+
+@media screen and (min-width: 768px) {
+.imagenEquipo {
+width: 100vw; /* para dispositivos de escritorio */
+}
+}
+
+/* Cartel de DEVXPERTS */
+.home-section {
+    position: relative;
+    text-align: center;
+  }
+
+.cartel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.cartel h1 {
+  color: blue;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px gray;
+}
+/* FIn cartel */
+
+/*FIN SECCION HOME*/
+
 /* INICIO SECCION CONTACT CARDS */
 
 .contact-cards-section {
