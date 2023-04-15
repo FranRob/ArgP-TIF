@@ -221,9 +221,20 @@ footer{
     display: flex;
     flex-direction: column;
     padding: 40px;
-
 }
 
+.soluciones{
+    border-left: 1px solid rgb(125, 123, 146);
+    border
+}
+
+.nosotros{
+    border-left: 1px solid rgb(125, 123, 146);
+}
+
+.r-sociales{
+    border-left: 1px solid rgb(125, 123, 146);
+}
 .box__footer .logo img{
     width: 180px;
 }
