@@ -45,13 +45,13 @@ section {
 /*INICIO SECCION HOME*/
 
 .imagenEquipo {
-width: 80vw; /* para dispositivos móviles */
+    width: 80vw; /* para dispositivos móviles */
 }
 
 @media screen and (min-width: 768px) {
-.imagenEquipo {
-width: 100vw; /* para dispositivos de escritorio */
-}
+    .imagenEquipo {
+        width: 100vw; /* para dispositivos de escritorio */
+    }
 }
 
 /* Cartel de DEVXPERTS */
@@ -59,7 +59,12 @@ width: 100vw; /* para dispositivos de escritorio */
     overflow: hidden;
     text-align: center;
 }
-
+/* para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .home-section {
+        height: 450px;
+    }
+}
 .cartel {
     position: absolute;
     left: 50%;
