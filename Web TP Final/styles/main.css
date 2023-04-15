@@ -225,11 +225,10 @@ footer{
 
 .soluciones{
     border-left: 1px solid rgb(125, 123, 146);
-    border
 }
 
 .nosotros{
-    border-left: 1px solid rgb(125, 123, 146);
+    border-left: solid 1px rgb(125, 123, 146);
 }
 
 .r-sociales{
