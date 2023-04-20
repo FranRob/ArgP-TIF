@@ -42,6 +42,16 @@ section {
 }
 /*FIN SECCION GENERAL*/
 
+/*INICIO SECCION DE ESPACIADO - SE PUEDE REUTILIZAR*/
+
+.seccion__espaciado{
+  width: 100%;
+  height: 200px;
+  background-color: transparent;
+}
+
+/*FIN SECCION DE ESPACIADO - SE PUEDE REUTILIZAR*/
+
 /*INICIO SECCION HOME*/
 
 .imagenEquipo {
