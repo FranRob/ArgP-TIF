@@ -2,7 +2,7 @@ const formulario = document.getElementById('formulario');
 const inputs = document.querySelectorAll('.formulario__input, .formulario__textarea');
 
 const expresiones = {
-	nombre: /^[a-zA-ZÀ-ÿ\s]{3,20}$/, // Letras y espacios, pueden llevar acentos min 3 max 20.
+	nombre: /^[a-zA-ZÀ-ÿ\s]{3,20}$/, //min 3 max 20.
 	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 	asunto: /^[a-zA-ZÀ-ÿ\s]{3,40}$/,    // min 3 max 40
 	telefono: /^\d{7,14}$/ // 7 a 14 numeros.
