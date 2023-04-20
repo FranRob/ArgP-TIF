@@ -38,7 +38,7 @@ section {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 600px;
+    height: 100vh;
 }
 /*FIN SECCION GENERAL*/
 
@@ -58,23 +58,12 @@ section {
     width: 80vw; /* para dispositivos móviles */
 }
 
-@media screen and (min-width: 768px) {
-    .imagenEquipo {
-        width: 100vw; /* para dispositivos de escritorio */
-    }
-}
-
 /* Cartel de DEVXPERTS */
 .home-section {
     overflow: hidden;
     text-align: center;
 }
-/* para dispositivos móviles */
-@media screen and (max-width: 768px) {
-    .home-section {
-        height: 450px;
-    }
-}
+
 .cartel {
     position: absolute;
     left: 50%;
@@ -168,18 +157,6 @@ section {
   .sec__contacto .sec__redesSociales .sec_redesSociales-red h4 {
     font-weight: 600;
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   .sec__contacto .sec__formulario-container {
     display: inline-block;
@@ -423,66 +400,18 @@ footer{
 /* FIN FOOTER */
 
 
+@media screen and (min-width: 768px) {
+    .imagenEquipo {
+        width: 100vw; /* para dispositivos de escritorio */
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .home-section {
+        height: 450px;
+    }
+}
 
 
 
